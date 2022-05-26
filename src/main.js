@@ -7,14 +7,11 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuelidate from 'vuelidate'
-import {store} from './store/store.js'
+import { store } from './store/store.js'
 
 Vue.filter('currency', (value) => {
   return '$' + value.toLocaleString()
 })
-
-
-
 
 Vue.use(BootstrapVue);
 Vue.use(Vuelidate)
